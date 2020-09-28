@@ -1,14 +1,25 @@
-<!DOCTYPE html>
+
 <html>
 <head>
 	<title>SKO SCHOOL </title>
+		<svg height="130" width="500">
+
 							<!--LINKING THE FONTS-->
 	<link href="https://fonts.googleapis.com/css2?family=Montserrat&display=swap" rel="stylesheet"> 
 	<link rel="stylesheet" type="text/css" href="style.css">
 </head>
 <body>
 							<!--logo -->
-	<img src="sko school logo 2.png">
+	  <defs>
+    <linearGradient id="grad1" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" style="stop-color:rgb(255,255,0);stop-opacity:1" />
+      <stop offset="100%" style="stop-color:rgb(255,0,0);stop-opacity:1" />
+    </linearGradient>
+  </defs>
+  <ellipse cx="100" cy="70" rx="85" ry="55" fill="url(#grad1)" />
+  <text fill="#ffffff" font-size="45" font-family="Verdana" x="50" y="86"> SKO </text>
+  Sorry, your browser does not support inline SVG.
+</svg>
 							<!-- header-->
 	<header>
 		<nav>
@@ -48,32 +59,7 @@
 
    <form>
  								<!--login -->
- <!-- 	 <form action="action_page.php" method="post">
-  <div class="container">
-    <label for="uname"><b>Username</b></label>
-    <input type="text" placeholder="Enter Username" name="uname" required><br>
-
-    <label for="psw"><b>Password</b></label>
-    <input type="password" placeholder="Enter Password" name="psw" required><br>
-
-    <button type="submit">Login</button><br>
-    <label>
-      <input type="checkbox" checked="checked" name="remember"> Remember me
-    </label><br>
-  </div> -->
-
-     <form action="login_user.php" method="post">
-      <div class="form-group">
-        <label for="user_name">Username</label>
-        <input type="text" class="form-control" id="user_name" aria-describedby="user_name">
-        <small id="user_name" name="user_name" class="form-text text-muted">We'll never share your name with anyone else.</small>
-      </div>
-      <div class="form-group">
-        <label for="text">Password</label>
-        <input type="password" class="form-control" id="user_password">
-      </div>
-      <button type="submit" class="btn btn-primary">Submit</button>
-    </form>
+ 
 
 
   <div class="container" style="background-color:#f1f1f1">
